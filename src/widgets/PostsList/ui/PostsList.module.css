@@ -1,0 +1,14 @@
+.post_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.post_items span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
